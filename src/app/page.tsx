@@ -190,13 +190,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WhatsApp CTA Section */}
+      {/* Footer CTA Section */}
       <section className="section-padding bg-[#312b54]">
         <div className="container-padding">
-          <div className="max-w-2xl mx-auto text-center text-white">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-2 mb-6 animate-fade-in">Let's Build Together</h2>
-            <p className="text-xl mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>Got Questions or Ready to Start? Message Us on WhatsApp</p>
-            <Link href="https://wa.me/4790411895" className="inline-flex items-center px-8 py-4 text-lg font-medium text-white bg-[#8762f3] rounded-lg hover:bg-[#8762f3]/90 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+            <p className="text-xl mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>Got Questions or Ready to Start?</p>
+            <Link href="https://wa.me/4790411895" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
               Message me on WhatsApp
             </Link>
           </div>
