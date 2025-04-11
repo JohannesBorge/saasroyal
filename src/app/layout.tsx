@@ -8,12 +8,15 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'SaaS Royal - Your High-Performance Accountability Partner',
   description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
+  metadataBase: new URL('https://saasroyal.vercel.app'),
   openGraph: {
     title: 'SaaS Royal - Your High-Performance Accountability Partner',
     description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
+    url: 'https://saasroyal.vercel.app',
+    siteName: 'SaaS Royal',
     images: [
       {
-        url: '/logo.png',
+        url: 'https://saasroyal.vercel.app/logo.png',
         width: 128,
         height: 128,
         alt: 'SaaS Royal Logo',
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SaaS Royal - Your High-Performance Accountability Partner',
     description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
-    images: ['/logo.png'],
+    images: ['https://saasroyal.vercel.app/logo.png'],
   },
 }
 
