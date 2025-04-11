@@ -8,6 +8,24 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'SaaS Royal - Your High-Performance Accountability Partner',
   description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
+  openGraph: {
+    title: 'SaaS Royal - Your High-Performance Accountability Partner',
+    description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
+    images: [
+      {
+        url: '/logo.png',
+        width: 128,
+        height: 128,
+        alt: 'SaaS Royal Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SaaS Royal - Your High-Performance Accountability Partner',
+    description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
+    images: ['/logo.png'],
+  },
 }
 
 export default function RootLayout({
