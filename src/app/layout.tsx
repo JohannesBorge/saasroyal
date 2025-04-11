@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: 'SaaS Royal - Your High-Performance Accountability Partner',
   description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
   metadataBase: new URL('https://saasroyal.vercel.app'),
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'SaaS Royal - Your High-Performance Accountability Partner',
     description: 'Stay accountable, build momentum, and execute daily with personalized coaching and follow-ups for SaaS founders and developers.',
