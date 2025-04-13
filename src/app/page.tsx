@@ -73,54 +73,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Meet Your Accountability Partner Section */}
-      <section className="section-padding">
-        <div className="container-padding">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="heading-2 mb-6 animate-fade-in">Meet Your Accountability Partner</h2>
-            <p className="body-text mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              Hi, I'm Johannes. I've helped hundreds of founders and developers stay consistent and ship their products. My approach combines daily accountability with weekly strategy sessions to keep you moving forward.
-            </p>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
-                <h3 className="text-xl font-semibold mb-4">My Background</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Built and sold multiple SaaS products</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Helped 100+ founders achieve their goals</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Specialized in developer-focused products</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
-                <h3 className="text-xl font-semibold mb-4">My Approach</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Daily check-ins to maintain momentum</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Weekly strategy sessions</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#ff69b4] mr-2">✓</span>
-                    <span>Personalized feedback and guidance</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Pricing Section */}
       <section className="section-padding">
         <div className="container-padding">
