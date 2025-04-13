@@ -97,33 +97,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Second Video Section */}
-      <section className="section-padding">
-        <div className="container-padding">
-          <h2 className="heading-2 text-center mb-16 animate-fade-in">
-            The Power of Accountability
-          </h2>
-          <p className="text-xl text-center text-gray-400 mb-16 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Discover how daily check-ins and weekly calls create unstoppable momentum
-          </p>
-          <div className="max-w-4xl mx-auto bg-[#2c2e38] rounded-xl animate-scale-in overflow-hidden hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300" style={{ animationDelay: '0.2s' }}>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">Daily Accountability in Action</h3>
-              <p className="text-gray-400 mb-4">See how our daily check-ins and weekly calls help you build unstoppable momentum</p>
-            </div>
-            <div className="aspect-video bg-[#1a1f2c]">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/AB0KfbFdkF0"
-                title="The Power of Accountability"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* UGC Videos Section */}
       <section className="section-padding">
         <div className="container-padding">
