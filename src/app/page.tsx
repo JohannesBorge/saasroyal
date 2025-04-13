@@ -88,24 +88,6 @@ export default function Home() {
                 <h3 className="text-4xl font-bold mb-2">$100<span className="text-gray-400 text-lg">/month</span></h3>
                 <p className="text-gray-400">After your free trial</p>
               </div>
-              <div className="space-y-4 text-left">
-                <p className="flex items-center text-gray-300">
-                  <span className="text-[#ff69b4] mr-2">✓</span>
-                  Daily accountability check-ins
-                </p>
-                <p className="flex items-center text-gray-300">
-                  <span className="text-[#ff69b4] mr-2">✓</span>
-                  Weekly 1:1 coaching calls
-                </p>
-                <p className="flex items-center text-gray-300">
-                  <span className="text-[#ff69b4] mr-2">✓</span>
-                  Progress tracking and analytics
-                </p>
-                <p className="flex items-center text-gray-300">
-                  <span className="text-[#ff69b4] mr-2">✓</span>
-                  Personalized feedback and guidance
-                </p>
-              </div>
             </div>
           </div>
         </div>
