@@ -54,19 +54,19 @@ export default function Home() {
             <div className="p-8 bg-[#2c2e38] rounded-xl animate-slide-up hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
               <h3 className="text-xl font-semibold mb-4">Task Management</h3>
               <p className="text-gray-400">
-                Track, prioritize, and stay organized with a system that makes sure nothing slips through.
+              Stay organized and in control with a clear system for tracking, prioritizing, and completing your most important tasks—so nothing falls through the cracks.
               </p>
             </div>
             <div className="p-8 bg-[#2c2e38] rounded-xl animate-slide-up hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300" style={{ animationDelay: '0.2s' }}>
               <h3 className="text-xl font-semibold mb-4">Daily Follow-Ups</h3>
               <p className="text-gray-400">
-                We check in with you every day so you don't lose momentum.
+              We check in with you every single day to keep you focused, maintain momentum, and help you consistently make progress toward your goals.
               </p>
             </div>
             <div className="p-8 bg-[#2c2e38] rounded-xl animate-slide-up hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300" style={{ animationDelay: '0.4s' }}>
               <h3 className="text-xl font-semibold mb-4">1-1 Weekly Calls</h3>
               <p className="text-gray-400">
-                Get personalized feedback, strategy, and accountability from Johannes every week.
+              Get weekly one-on-one sessions with Johannes for personalized advice, strategic planning, and the accountability you need to keep moving forward.
               </p>
             </div>
           </div>
