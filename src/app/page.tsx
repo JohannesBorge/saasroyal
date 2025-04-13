@@ -73,6 +73,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <h2 className="heading-2 text-center mb-12 animate-fade-in">
+            Simple, Transparent Pricing
+          </h2>
+          <div className="max-w-2xl mx-auto bg-[#2c2e38] rounded-xl p-8 animate-scale-in">
+            <div className="text-center">
+              <div className="mb-6">
+                <span className="inline-block bg-[#ff69b4] bg-opacity-20 text-[#ff69b4] px-4 py-2 rounded-full text-sm font-medium mb-4">
+                  7-Day Free Trial
+                </span>
+                <h3 className="text-4xl font-bold mb-2">$100<span className="text-gray-400 text-lg">/month</span></h3>
+                <p className="text-gray-400">After your free trial</p>
+              </div>
+              <div className="space-y-4 text-left">
+                <p className="flex items-center text-gray-300">
+                  <span className="text-[#ff69b4] mr-2">✓</span>
+                  Daily accountability check-ins
+                </p>
+                <p className="flex items-center text-gray-300">
+                  <span className="text-[#ff69b4] mr-2">✓</span>
+                  Weekly 1:1 coaching calls
+                </p>
+                <p className="flex items-center text-gray-300">
+                  <span className="text-[#ff69b4] mr-2">✓</span>
+                  Progress tracking and analytics
+                </p>
+                <p className="flex items-center text-gray-300">
+                  <span className="text-[#ff69b4] mr-2">✓</span>
+                  Personalized feedback and guidance
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* VSL Section */}
       <section className="section-padding">
         <div className="container-padding">
@@ -105,7 +143,7 @@ export default function Home() {
               <div className="bg-[#2c2e38] rounded-xl overflow-hidden hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
                 <div className="p-6">
                   <h4 className="text-lg font-semibold mb-2">From Idea to Launch</h4>
-                  <p className="text-gray-400 mb-4">It’s not about the perfect idea—it’s about building momentum. Consistent action, day after day, turns ideas into real products</p>
+                  <p className="text-gray-400 mb-4">It's not about the perfect idea—it's about building momentum. Consistent action, day after day, turns ideas into real products</p>
                 </div>
                 <div className="aspect-video bg-[#1a1f2c]">
                   <iframe
