@@ -249,7 +249,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>Johannes Jensen Borge</h3>
             <p className="body-text mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              At 25, I'm combining my passion for technology and personal development. Currently taking courses in back-end and front-end development, and starting my Modern Computer Science degree at Opit.com this September 15th. I've built SaaS Royal to help fellow builders turn their goals into reality through consistent execution and accountability.
+              At 25, I'm combining my passion for technology and personal development. Currently learning back-end and front-end development, and starting my Modern Computer Science degree at Opit.com this September 15th. I've built SaaS Royal to help fellow builders turn their goals into reality through consistent execution and accountability.
             </p>
           </div>
         </div>
