@@ -55,7 +55,7 @@ export default function Home() {
               You Need <span className="text-[#ff69b4]">Momentum</span>.
             </h1>
             <p className="body-text mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              I give you the daily push, tracking, and follow-up to ship consistently — and win long-term.
+            I give aspiring developers, SaaS founders, and CTOs the daily push, tracking, and follow-up to ship consistently — and win long-term.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
