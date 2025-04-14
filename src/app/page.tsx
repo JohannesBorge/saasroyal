@@ -109,7 +109,7 @@ export default function Home() {
             <div className="bg-[#2c2e38] rounded-xl p-8 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl font-bold text-white">Introductory Offer</h3>
-                <span className="px-3 py-1 text-sm font-semibold text-[#ff69b4] bg-[#312b54] rounded-full">
+                <span className="px-3 py-1 text-sm font-semibold text-[#ff69b4] rounded-full">
                   Special Price
                 </span>
               </div>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="bg-[#2c2e38] rounded-xl p-8 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl font-bold text-white">Regular Plan</h3>
-                <span className="px-3 py-1 text-sm font-semibold text-[#ff69b4] bg-[#312b54] rounded-full">
+                <span className="px-3 py-1 text-sm font-semibold text-[#ff69b4] rounded-full">
                   Standard
                 </span>
               </div>
