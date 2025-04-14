@@ -230,6 +230,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <h2 className="heading-2 text-center mb-12 animate-fade-in">
+            Frequently Asked Questions
+          </h2>
+          <div className="max-w-3xl mx-auto space-y-6">
+            {/* Question 1 */}
+            <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+              <h3 className="text-xl font-bold text-white mb-3">What is included in the subscription?</h3>
+              <p className="text-gray-400">Our subscription includes full access to our high-performance accountability system, personalized coaching, and exclusive community access. You'll get all the tools and support needed to build and grow your SaaS business.</p>
+            </div>
+
+            {/* Question 2 */}
+            <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+              <h3 className="text-xl font-bold text-white mb-3">How does the accountability system work?</h3>
+              <p className="text-gray-400">Our system combines daily check-ins, progress tracking, and personalized feedback to keep you on track. You'll set goals, track your progress, and receive support from our community and coaches.</p>
+            </div>
+
+            {/* Question 3 */}
+            <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+              <h3 className="text-xl font-bold text-white mb-3">Can I cancel my subscription anytime?</h3>
+              <p className="text-gray-400">Yes, you can cancel your subscription at any time. There are no long-term commitments or hidden fees.</p>
+            </div>
+
+            {/* Question 4 */}
+            <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+              <h3 className="text-xl font-bold text-white mb-3">What kind of support do you offer?</h3>
+              <p className="text-gray-400">We provide comprehensive support including email support, community forums, and regular check-ins with our coaches. Our team is dedicated to helping you succeed in your SaaS journey.</p>
+            </div>
+
+            {/* Question 5 */}
+            <div className="bg-[#2c2e38] rounded-xl p-6 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+              <h3 className="text-xl font-bold text-white mb-3">Is this suitable for beginners?</h3>
+              <p className="text-gray-400">Absolutely! Our system is designed to help both beginners and experienced developers. We provide step-by-step guidance and adapt our support to your current skill level and experience.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer CTA Section */}
       <section className="section-padding bg-[#312b54]">
         <div className="container-padding">
