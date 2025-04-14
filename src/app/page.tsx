@@ -92,30 +92,7 @@ export default function Home() {
                 <span className="text-4xl font-bold text-white">$50</span>
                 <span className="text-gray-400">/month</span>
               </div>
-              <p className="text-gray-400 mb-6">For the first two months</p>
-              <ul className="space-y-4 mb-8">
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">Full access to all features</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">Priority support</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">Exclusive community access</span>
-                </li>
-              </ul>
-              <button className="w-full bg-[#ff69b4] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#ff4da6] transition-all duration-300">
-                Get Started Now
-              </button>
+              <p className="text-gray-400">For the first two months</p>
             </div>
 
             {/* Regular Plan */}
@@ -130,30 +107,7 @@ export default function Home() {
                 <span className="text-4xl font-bold text-white">$100</span>
                 <span className="text-gray-400">/month</span>
               </div>
-              <p className="text-gray-400 mb-6">After introductory period</p>
-              <ul className="space-y-4 mb-8">
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">All features included</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">Premium support</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="h-5 w-5 text-[#ff69b4] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-300">Advanced features</span>
-                </li>
-              </ul>
-              <button className="w-full bg-[#312b54] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#3a3366] transition-all duration-300">
-                Continue Plan
-              </button>
+              <p className="text-gray-400">After introductory period</p>
             </div>
           </div>
           <div className="text-center mt-12">
