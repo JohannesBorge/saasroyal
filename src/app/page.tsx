@@ -170,7 +170,7 @@ export default function Home() {
               <div className="bg-[#2c2e38] rounded-xl overflow-hidden hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
                 <div className="p-6">
                   <h4 className="text-lg font-semibold mb-2">From Idea to Launch</h4>
-                  <p className="text-gray-400 mb-4">It's not about the perfect idea—it's about building momentum. Consistent action, day after day, turns ideas into real products</p>
+                  <p className="text-gray-400 mb-4">It's not about the perfect idea—it's about building momentum. Consistent action, day after day</p>
                 </div>
                 <div className="aspect-video bg-[#1a1f2c]">
                   <iframe
