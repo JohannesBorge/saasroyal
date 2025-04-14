@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  const [showFAQ, setShowFAQ] = useState(false);
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      question: "How does the daily accountability work?",
+      answer: "You'll receive a daily check-in message where you'll report your progress and set your goals for the next day. This consistent touchpoint helps maintain momentum and keeps you focused on your priorities."
+    },
+    {
+      question: "What happens during the weekly 1-1 calls?",
+      answer: "During our weekly calls, we'll review your progress, tackle any challenges you're facing, and plan your next steps. These sessions are tailored to your specific needs and goals, providing personalized guidance and support."
+    },
+    {
+      question: "Can I cancel or pause my subscription?",
+      answer: "Yes, you can cancel your subscription at any time. We believe in providing flexible options that work for you. Simply reach out, and we'll handle your request promptly."
+    }
+  ];
+
   return (
     <main className="min-h-screen bg-[#1a1f2c] text-white">
       {/* Hero Section */}
@@ -226,6 +244,61 @@ export default function Home() {
             <p className="body-text mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
               At 25, I'm combining my passion for technology and personal development. Currently taking courses in back-end and front-end development, and starting my Modern Computer Science degree at Opit.com this September 15th. I've built SaaS Royal to help fellow builders turn their goals into reality through consistent execution and accountability.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <div className="max-w-3xl mx-auto">
+            <button
+              onClick={() => setShowFAQ(!showFAQ)}
+              className="w-full bg-[#2c2e38] rounded-xl p-6 text-left hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-all duration-300 animate-scale-in"
+            >
+              <div className="flex items-center justify-between">
+                <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
+                <svg
+                  className={`w-6 h-6 transform transition-transform duration-300 ${showFAQ ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </button>
+
+            {showFAQ && (
+              <div className="mt-6 space-y-4">
+                {faqs.map((faq, index) => (
+                  <div
+                    key={index}
+                    className="bg-[#2c2e38] rounded-xl overflow-hidden"
+                  >
+                    <button
+                      onClick={() => setOpenQuestion(openQuestion === index ? null : index)}
+                      className="w-full p-6 text-left flex items-center justify-between hover:bg-[#312b54] transition-colors duration-300"
+                    >
+                      <h3 className="text-lg font-semibold">{faq.question}</h3>
+                      <svg
+                        className={`w-5 h-5 transform transition-transform duration-300 ${openQuestion === index ? 'rotate-180' : ''}`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    {openQuestion === index && (
+                      <div className="p-6 pt-0 text-gray-400">
+                        {faq.answer}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </section>
