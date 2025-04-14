@@ -110,9 +110,6 @@ export default function Home() {
               <p className="text-gray-400">After introductory period</p>
             </div>
           </div>
-          <div className="text-center mt-12">
-            <p className="text-gray-400">No hidden fees. Cancel anytime.</p>
-          </div>
         </div>
       </section>
 
