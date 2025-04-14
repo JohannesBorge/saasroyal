@@ -12,7 +12,7 @@ export default function TermsOfService() {
         
         <div className="space-y-6">
           <p className="text-gray-400">
-            Welcome to SaaS Royal. By using our website or subscribing to our services, you agree to these Terms and Conditions in full. If you disagree with any part, please do not use the service.
+            Welcome to SaaS Royal. By paying and subscribing to my service, you agree to these Terms and Conditions in full. If you disagree with any part, please do not use the service.
           </p>
 
           <section>
