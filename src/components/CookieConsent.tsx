@@ -35,6 +35,10 @@ export default function CookieConsent() {
               <Link href="/privacy" className="text-[#ff69b4] hover:text-[#ff4da6] underline">
                 Learn more
               </Link>
+              {' '}and{' '}
+              <Link href="/terms" className="text-[#ff69b4] hover:text-[#ff4da6] underline">
+                Terms of Service
+              </Link>
             </p>
           </div>
           <div className="flex gap-4">
