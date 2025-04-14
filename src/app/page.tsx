@@ -57,9 +57,14 @@ export default function Home() {
             <p className="body-text mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               I give you the daily push, tracking, and follow-up to ship consistently — and win long-term.
             </p>
-            <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
-              Message me on WhatsApp
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                Message me on WhatsApp
+              </Link>
+              <Link href="https://www.instagram.com/direct/new?username=johannesjborge" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                DM me on Instagram
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -311,9 +316,14 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-2 mb-6 animate-fade-in">Let's Build Together</h2>
             <p className="text-xl mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>Got Questions or Ready to Start?</p>
-            <Link href="https://wa.me/4790411895" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
-              Message me on WhatsApp
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="https://wa.me/4790411895" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                Message me on WhatsApp
+              </Link>
+              <Link href="https://www.instagram.com/direct/new?username=johannesjborge" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                DM me on Instagram
+              </Link>
+            </div>
           </div>
         </div>
       </section>
