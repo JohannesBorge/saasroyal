@@ -19,7 +19,7 @@ export default function Home() {
     },
     {
       question: "Can I cancel or pause my subscription?",
-      answer: "Yes, you can cancel your subscription at any time. We believe in providing flexible options that work for you. Simply reach out, and we'll handle your request promptly."
+      answer: "We believe in full flexibility — you're never locked in. When you cancel, your subscription stays active until the end of your current billing period, and you won't be charged again after that."
     }
   ];
 
