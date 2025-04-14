@@ -324,6 +324,14 @@ export default function Home() {
                 DM me on Instagram
               </Link>
             </div>
+            <div className="mt-8 flex justify-center gap-6 text-sm text-gray-400">
+              <Link href="/privacy" className="hover:text-[#ff69b4] transition-colors duration-300">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-[#ff69b4] transition-colors duration-300">
+                Terms of Service
+              </Link>
+            </div>
           </div>
         </div>
       </section>
