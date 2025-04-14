@@ -125,7 +125,7 @@ export default function Home() {
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl font-bold text-white">Regular Plan</h3>
                 <span className="px-3 py-1 text-sm font-semibold text-[#ff69b4] rounded-full">
-                  Standard
+                  Standard Price
                 </span>
               </div>
               <div className="mb-6">
