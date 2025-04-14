@@ -230,6 +230,125 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <div className="max-w-4xl mx-auto">
+            <button
+              id="faqToggle"
+              className="w-full bg-[#2c2e38] text-white font-semibold py-4 px-6 rounded-lg hover:bg-[#3a3366] transition-all duration-300 flex items-center justify-between group"
+              onClick={() => {
+                const faqList = document.getElementById('faqList');
+                const faqToggle = document.getElementById('faqToggle');
+                if (faqList && faqToggle) {
+                  faqList.classList.toggle('hidden');
+                  faqToggle.classList.toggle('bg-[#3a3366]');
+                }
+              }}
+            >
+              <span>Show FAQ</span>
+              <svg
+                className="w-5 h-5 transform group-hover:rotate-180 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <div id="faqList" className="hidden mt-6 space-y-4">
+              {/* FAQ Item 1 */}
+              <div className="bg-[#2c2e38] rounded-lg overflow-hidden">
+                <button
+                  className="w-full text-left px-6 py-4 flex items-center justify-between hover:bg-[#3a3366] transition-colors duration-300"
+                  onClick={(e) => {
+                    const answer = e.currentTarget.nextElementSibling;
+                    if (answer) {
+                      answer.classList.toggle('hidden');
+                      e.currentTarget.querySelector('svg').classList.toggle('rotate-180');
+                    }
+                  }}
+                >
+                  <span className="font-semibold text-white">What is SaaS Royal?</span>
+                  <svg
+                    className="w-5 h-5 text-[#ff69b4] transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="hidden px-6 pb-4">
+                  <p className="text-gray-300">
+                    SaaS Royal is a high-performance accountability system designed for aspiring SaaS founders and developers. We provide structured support, expert guidance, and a community to help you build and grow your SaaS business.
+                  </p>
+                </div>
+              </div>
+
+              {/* FAQ Item 2 */}
+              <div className="bg-[#2c2e38] rounded-lg overflow-hidden">
+                <button
+                  className="w-full text-left px-6 py-4 flex items-center justify-between hover:bg-[#3a3366] transition-colors duration-300"
+                  onClick={(e) => {
+                    const answer = e.currentTarget.nextElementSibling;
+                    if (answer) {
+                      answer.classList.toggle('hidden');
+                      e.currentTarget.querySelector('svg').classList.toggle('rotate-180');
+                    }
+                  }}
+                >
+                  <span className="font-semibold text-white">How does the pricing work?</span>
+                  <svg
+                    className="w-5 h-5 text-[#ff69b4] transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="hidden px-6 pb-4">
+                  <p className="text-gray-300">
+                    We offer a special introductory price of $50/month for the first two months, followed by our regular rate of $100/month. This gives you time to experience the full value of our program before committing to the standard rate.
+                  </p>
+                </div>
+              </div>
+
+              {/* FAQ Item 3 */}
+              <div className="bg-[#2c2e38] rounded-lg overflow-hidden">
+                <button
+                  className="w-full text-left px-6 py-4 flex items-center justify-between hover:bg-[#3a3366] transition-colors duration-300"
+                  onClick={(e) => {
+                    const answer = e.currentTarget.nextElementSibling;
+                    if (answer) {
+                      answer.classList.toggle('hidden');
+                      e.currentTarget.querySelector('svg').classList.toggle('rotate-180');
+                    }
+                  }}
+                >
+                  <span className="font-semibold text-white">What kind of support do you provide?</span>
+                  <svg
+                    className="w-5 h-5 text-[#ff69b4] transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="hidden px-6 pb-4">
+                  <p className="text-gray-300">
+                    We provide comprehensive support including weekly check-ins, expert guidance, and access to our exclusive community. Our team is dedicated to helping you overcome challenges and achieve your SaaS goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer CTA Section */}
       <section className="section-padding bg-[#312b54]">
         <div className="container-padding">
