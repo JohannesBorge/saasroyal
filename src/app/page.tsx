@@ -61,7 +61,7 @@ export default function Home() {
               <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
                 Message me on WhatsApp
               </Link>
-              <Link href="https://www.instagram.com/direct/new?username=johannesjborge" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+              <Link href="https://www.instagram.com/johannesjborge/" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
                 DM me on Instagram
               </Link>
             </div>
@@ -320,7 +320,7 @@ export default function Home() {
               <Link href="https://wa.me/4790411895" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
                 Message me on WhatsApp
               </Link>
-              <Link href="https://www.instagram.com/direct/new?username=johannesjborge" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+              <Link href="https://www.instagram.com/johannesjborge/" className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#312b54] bg-white rounded-lg hover:bg-gray-100 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
                 DM me on Instagram
               </Link>
             </div>
