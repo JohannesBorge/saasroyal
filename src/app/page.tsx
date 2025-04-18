@@ -156,8 +156,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Special Pricing</h3>
-                  <p className="text-gray-400">Lock in our introductory rate of $50/month for the first two months</p>
+                  <h3 className="text-lg font-semibold mb-2">Access to Our Learning Library</h3>
+                  <p className="text-gray-400">Gain immediate access to our learning library, featuring a wide range of resources designed to support your growth and success.​</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
