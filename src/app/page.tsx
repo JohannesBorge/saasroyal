@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Access to Our Learning Library</h3>
-                  <p className="text-gray-400">Gain immediate access to our learning library, featuring a wide range of resources.​</p>
+                  <p className="text-gray-400">Gain immediate access to our learning library, featuring a wide range of resources​</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
