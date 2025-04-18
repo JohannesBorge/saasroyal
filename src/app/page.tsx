@@ -143,7 +143,7 @@ export default function Home() {
         <div className="container-padding">
           <div className="max-w-4xl mx-auto bg-[#2c2e38] rounded-xl p-8 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
             <h2 className="heading-2 text-center mb-6">
-              Join Our Pilot Program
+              Join My Pilot Program
             </h2>
             <p className="text-gray-400 text-center mb-8">
               I'm looking for the first 10 pilot customers to help test, improve, and concretize the service. As an early adopter, you'll get:
@@ -190,7 +190,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Exclusive Access</h3>
-                  <p className="text-gray-400">Be among the first to experience and benefit from our accountability system</p>
+                  <p className="text-gray-400">Be among the first to experience and benefit from my accountability system</p>
                 </div>
               </div>
             </div>
