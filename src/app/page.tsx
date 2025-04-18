@@ -138,6 +138,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pilot Program Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <div className="max-w-4xl mx-auto bg-[#2c2e38] rounded-xl p-8 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+            <h2 className="heading-2 text-center mb-6">
+              Join Our Pilot Program
+            </h2>
+            <p className="text-gray-400 text-center mb-8">
+              I'm looking for the first 10 pilot customers to help test, improve, and concretize the service. As an early adopter, you'll get:
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Special Pricing</h3>
+                  <p className="text-gray-400">Lock in our introductory rate of $50/month for the first two months</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Direct Influence</h3>
+                  <p className="text-gray-400">Help shape the future of the service with your feedback and suggestions</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Priority Support</h3>
+                  <p className="text-gray-400">Get immediate attention and support as we refine the service together</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Exclusive Access</h3>
+                  <p className="text-gray-400">Be among the first to experience and benefit from our accountability system</p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 text-center">
+              <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                Join the Pilot Program
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* VSL Section */}
       <section className="section-padding">
         <div className="container-padding">
