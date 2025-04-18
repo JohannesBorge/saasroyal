@@ -282,7 +282,7 @@ export default function Home() {
               Your Journey to Consistent Progress Starts Here
             </h2>
             <p className="body-text text-center mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              Join our high-performance accountability system designed specifically for aspiring SaaS founders and developers. Get immediate access to daily check-ins, personalized coaching, and a proven framework for consistent execution.
+              Join our high-performance accountability system designed specifically for aspiring SaaS founders and developers. Get access to daily check-ins, personalized coaching, and a proven framework for consistent execution.
             </p>
             <div className="bg-[#2c2e38] rounded-xl overflow-hidden animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300" style={{ animationDelay: '0.4s' }}>
               <div className="p-6">
