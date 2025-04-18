@@ -354,7 +354,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Live Q&A Sessions</h3>
+                  <h3 className="text-lg font-semibold mb-2">Q&A Sessions</h3>
                   <p className="text-gray-400">Regular opportunities to ask questions and get direct answers</p>
                 </div>
               </div>
