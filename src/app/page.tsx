@@ -195,9 +195,14 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-8 text-center">
-              <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
-                Join the Pilot Program
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="https://wa.me/4790411895" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                  Message me on WhatsApp
+                </Link>
+                <Link href="https://www.instagram.com/johannesjborge/" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                  DM me on Instagram
+                </Link>
+              </div>
             </div>
           </div>
         </div>
