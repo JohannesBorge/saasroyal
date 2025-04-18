@@ -310,7 +310,7 @@ export default function Home() {
             <h2 className="heading-2 mb-6 animate-fade-in">Meet Your Accountability Partner</h2>
             <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden relative animate-scale-in">
               <Image
-                src="/johannes.JPG"
+                src="/portrait.PNG"
                 alt="Johannes Jensen Borge"
                 fill
                 className="object-cover object-[center_10%] scale-[1.02]"
