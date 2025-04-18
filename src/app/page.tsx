@@ -325,6 +325,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Community Section */}
+      <section className="section-padding">
+        <div className="container-padding">
+          <div className="max-w-4xl mx-auto bg-[#2c2e38] rounded-xl p-8 animate-scale-in hover:shadow-[0_0_15px_rgba(255,105,180,0.5)] transition-shadow duration-300">
+            <h2 className="heading-2 text-center mb-6">
+              Join Our Free Community
+            </h2>
+            <p className="text-gray-400 text-center mb-8">
+              Want to learn more about how I work and get an in-depth look at my methods? Join our free community where you'll get:
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Exclusive Content</h3>
+                  <p className="text-gray-400">Access to detailed breakdowns of my methods and strategies</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Live Q&A Sessions</h3>
+                  <p className="text-gray-400">Regular opportunities to ask questions and get direct answers</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Behind the Scenes</h3>
+                  <p className="text-gray-400">See how I implement my strategies in real-time</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-6 h-6 mt-1">
+                  <svg className="w-6 h-6 text-[#ff69b4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">Community Support</h3>
+                  <p className="text-gray-400">Connect with other aspiring founders and developers</p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 text-center">
+              <Link href="https://whop.com/saas-royale/" className="cta-button animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                Join Our Free Community
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="section-padding">
         <div className="container-padding">
